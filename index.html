@@ -4,124 +4,90 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/Campus-/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Campus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script type="module" crossorigin src="/Campus-/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/Campus-/assets/styles-DvPDDfy5.css">
+    <link rel="stylesheet" crossorigin href="/Campus-/assets/styles-BdVIuOW4.css">
   </head>
   <body>
     <header class="header">
   <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/Campus-/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
+    <p class="header-time">9:30</p>
+    <ul class="header-list">
+      <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEqSURBVHgBvZJNa4QwEIZj/NpopSgexINevHj2/4M/RNCTInTtirDURZPOSAvqKrhS+l40k8mTybxDyB9I3gomSaIOw2B4nscsy8KvSinV4jgWVVXxdb40X7iua8myzDRNU8iOFEUZ+77vyrK8LyB4c9M0Dtwuk4NCWBiG1zRNB8n3fUNV1XfOuUReFFSNT7vRcRzfzgBQcJZCRRat6/qKpZETwnNZljUUgY7jNNB98QoA8/M8/8DzUyPRNtM0OWxcjkLAhLbruscE/A2iZYZhdEcAmPdk8VxBENhCCLYHAEfuRVHcFrF1Utu2D8bYBZLpeg8bCYBP+F30j25cxrccw/VPI5/GfguCmhybBwCA681R2B1zdEzXdQEV6LZtt1DdFzmrKIp08h/6BoKNgs6jSqFAAAAAAElFTkSuQmCC" alt="wifi" width="17" height="17" /></li>
+      <li>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABySURBVHgBxdO5EYBACAXQvztWoQaUYGeWoKXYio2hEhioewDjzP6AI+BlAK1DA03SI5wZe1oYmN2IACFgvXcz8gbMSAowITlAjZQAFVIDqogGKCJaIItYgCRiBT6IB3ggXkDSSZFv5Ai6xs1wi4Ox46+crFcYCQY9QMkAAAAASUVORK5CYII=" alt="Signal" width="17" height="17" />
+      </li>
+      <li>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAPCAYAAADZCo4zAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB4SURBVHgBzYytEkVQFIXX3te94RbhFCNRCLIX9yQqhaQJAsHPPhw/kWLMWGnNWt98hD2+64cTEJj+AfKiKjLTyfMih/rOFrDSELWO4Johtf79G0v6Lt4ccshgwMWmZGwHxkVY6HsJrNDzgKVJJ7cMrwAISM/O5StnUE4hOHZYyHsAAAAASUVORK5CYII=" alt="Battery" width="8" height="15" />
+      </li>
+    </ul>
   </div>
 </header>
 
 
     <main>
-      <!-- Loads the specified .html file -->
-      <section class="vite-promo">
-  <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
+      <section class="registration-page">
+  <div class="registration">
+    <img src="/Campus-/assets/logo-BvizwtEw.png" alt="logo" class="registration-img" width="256" />
+  </div>
+  <div class="container registration-window">
+    <p class="registration-title">Sign up</p>
+    <form>
+      <div class="registration-field">
+        <label for="" class="registration-label"></label>
+        <input type="text" placeholder="Email" class="registration-input" />
+      </div>
+      <div class="registration-field">
+        <label for="" class="registration-label"></label>
+        <input placeholder="Password" type="text" class="registration-input" />
         <img
-          class="pic"
-          src="/Campus-/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
+          class="registration-glass"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKxSURBVHgB7VQxW9NgEL5LA4vQJkw8UCD8AssvEDecLBtu7aSbdnMrbG61vwDY3IBJnYSNTdzc+EobdEyBgYeSnO+XLylp4FGcHOSeJ+2Xy917b967C9GD/Wvj+wZ6sMGAHGZybJuUtvvk/bZAuewtk0gToBURckYSmQKJaJ+Z97q+2vqrAhqYRTYFxFMfzgpgAY4Bk4wUBIgi4Ub3VO3msaxb4DNeE6y/aHCdaBE37DF2x8Z4CaB1XI1ur+PaIS8ycV3H6Fhh2SnPzDfzeIXszdzsfAt03iYabPT8zmr/PDgsTjgvo0g0uzcAfFUqOrWIhXqnnfbZeb9dLLlaiWXkLBcnSwTfwa0CMXOAa20R+KzXM7pqv5C8g/+SLf4A1gruacRUU7Czs2C/5LjfUGUFzFYmJ9z++UVwmMhnJuR6IMdGa274vnqf9WsZCiE/VT/N5HjTnhcWjIxaPgxUYBTwaiCzqfsE/5KetLgH4SBqmmq8lYJriwZUjf+J2ym4Nn1GbFufMbq11K+nCf5tHJ3rK2ndNBmvS4b+XrYnEZtJsYQU5Uws42POjS/RUeKvDAtIwoZYWlBlmCApMEfP8wUoMj6ODCAZSR1I9DoptZEUNDY3u3BsRlO2uv5JPU0IB/I13geRdXvcioloSUFKT5Tq+p3FIUZ5YQekqln/sEDcOBtgeoGEdu1xruvmebNeJSTZyS5dIkFQEDTeV0eayOAqamERa7H/Gg1OejYc0+AiCKYm3c/CtIbbCj4Da6Wi2z/x1aepR+5eZCGV+RKXwrVt2/xCdZXSWy+hfNQ7MCz6Q33P9GTUsiOYBIAJlkysAzQ2SHR38PMkEq4CNH2zI2z3anba7ixw0xOvBuBmXpq8xR89DAkWc/3O5/QHM19U7APT40xSgF51cNgF8D492P9tvwCR+EtRU3aD0wAAAABJRU5ErkJggg=="
+          alt=""
+          width="24"
+          height="24"
         />
-      </a>
-    </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
+      </div>
+      <a class="registration-pass" href="">Forgot password?</a>
+      <a href="./map-page.html" class="registration-continue">Continue</a>
+      <a href="./map.html" class="registration-log"
+        >Already have an account? Log in</a
       >
-        GoIT
-      </a>
-    </h1>
+      <p class="text-line">OR</p>
+      <ul class="registration-list">
+        <li>
+          <button type="button" class="registration-btn">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAATCAYAAACdkl3yAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ4SURBVHgBnVTfS1NxFD/f73ZzjrKrYUtqcCGK6CWFzQZKzCkhPcTIIAUJ7S+opzAfdNCPp3481GM18KEllhREPWxO6AflltlLES0aiQmzctMx2497T2dTt7sf19AD93vP99zP+ZxzvueeL4MNZNFpF1NLqV2CTtkDqJ+t8776oYVllYwLHTY7ojxEags9gupTmFx8gsAv1754G9YkircfNSVA8ZBqhw2EnGYRmGu3b+ruuk2fL6PTJiXSsp9UCf4jCGBGBLPalidKZ5SRMhIGk7TOUPQYKnCAc3ACohGRuUwTU8NlRBGHtY8ArQV/iAJTeuu975+pwfN2m6Tjsp1I3FBeLoDsFabj3r1NyUD9auoKtpr8wdewCeErfoOkADQZO+bA2P6TVHBvliRXmgEz+zNrzatqjvAq6y8P+IpBjqvL45R8oxYJA3ZBn0ZmVv8DekWYA0iWAkXqkqRFhKA08lJjWkAdbEH0wGEG5NVNHAR8nmhoAwh9LI4ITyivsCpFkbrsLADYF4Z+EDOK8H0+YxQvLjUrIbkmFDjz6BCBUSu640q8j173CzyyjbM2iL5MmkbPxY6lv8o1nLwPWkdP3dAi6by2IlGQIZUp7L+0813unG0PnJLMdJ+IpLqQfbZ3OBDofhzI7u3jTnH5r9Bi/N1zW4gdl1RE/ROD2935hlk8p8+T480KSUQpQJQx2EfF5iZh25+TimGxi1P1n32DOw5nbfmuBbvHblGxrgpEIsvOIBbmMlX3lCcarn+Tuf7Euq2o/cGesWGG2M9y9462MIQ7htoPlsmB6rDqKCqL9WFXL2Vhock/sgZcoHVaSBnuvTk7EinF/wM4+9/8AaqZ5AAAAABJRU5ErkJggg==" alt="google" width="18" height="18" />
+            Continue with Google
+          </button>
+        </li>
+        <li>
+          <button type="button" class="registration-btn">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADBSURBVHgBpZOBDYIwEEW/TNARuoGO4AaOYEdgA9zAOAFxA50AN3AE2aBuUI94RKh3QMtPXgIHfVxpCyyPJRrihhWxxIsIRI0VqVniWZodzx3ttBc2Qq0ktoQh7sSDu+juD3zdEld+9heL33+I8Uq96gcXA9EZ+vwNFs5or3xxitHqFQNRai6SyCA9b0mUEyuJWqTnKBW7jRYyqCRZkylzschlSNSzl9rVCUos9GMS88RMepnnDh2+G7bkwYHro733AZ5JcXPWp8BBAAAAAElFTkSuQmCC" alt="apple" width="18" height="18" />
+            Continue with Apple
+          </button>
+        </li>
+      </ul>
+    </form>
   </div>
 </section>
 
-      <article class="badges">
-  <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
-      </li>
-    </ul>
-  </div>
-</article>
-
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
+    
 
 
   </body>
