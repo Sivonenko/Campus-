@@ -18,8 +18,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script type="module" crossorigin src="/Campus-/assets/main-Dl9TX6iU.js"></script>
-    <link rel="stylesheet" crossorigin href="/Campus-/assets/styles-CLB40Guj.css">
+    <script type="module" crossorigin src="/Campus-/assets/main-DfqTc630.js"></script>
+    <link rel="stylesheet" crossorigin href="/Campus-/assets/styles-CdI_LZcb.css">
   </head>
   <body>
     <header class="header">
@@ -45,14 +45,16 @@
   </div>
   <div class="container registration-window">
     <p class="registration-title">Sign up</p>
-    <form>
+    <form id="registration-form">
       <div class="registration-field">
         <label for="" class="registration-label"></label>
-        <input type="text" placeholder="Email" class="registration-input" />
+        <input type="text" id="email" placeholder="Email" class="registration-input" />
+        <span class="error-message" id="email-error"></span>
       </div>
       <div class="registration-field">
         <label for="" class="registration-label"></label>
-        <input placeholder="Password" type="text" class="registration-input" />
+        <input placeholder="Password" id="password" type="text" class="registration-input" />
+        <span class="error-message" id="password-error"></span>
         <img
           class="registration-glass"
           src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKxSURBVHgB7VQxW9NgEL5LA4vQJkw8UCD8AssvEDecLBtu7aSbdnMrbG61vwDY3IBJnYSNTdzc+EobdEyBgYeSnO+XLylp4FGcHOSeJ+2Xy917b967C9GD/Wvj+wZ6sMGAHGZybJuUtvvk/bZAuewtk0gToBURckYSmQKJaJ+Z97q+2vqrAhqYRTYFxFMfzgpgAY4Bk4wUBIgi4Ub3VO3msaxb4DNeE6y/aHCdaBE37DF2x8Z4CaB1XI1ur+PaIS8ycV3H6Fhh2SnPzDfzeIXszdzsfAt03iYabPT8zmr/PDgsTjgvo0g0uzcAfFUqOrWIhXqnnfbZeb9dLLlaiWXkLBcnSwTfwa0CMXOAa20R+KzXM7pqv5C8g/+SLf4A1gruacRUU7Czs2C/5LjfUGUFzFYmJ9z++UVwmMhnJuR6IMdGa274vnqf9WsZCiE/VT/N5HjTnhcWjIxaPgxUYBTwaiCzqfsE/5KetLgH4SBqmmq8lYJriwZUjf+J2ym4Nn1GbFufMbq11K+nCf5tHJ3rK2ndNBmvS4b+XrYnEZtJsYQU5Uws42POjS/RUeKvDAtIwoZYWlBlmCApMEfP8wUoMj6ODCAZSR1I9DoptZEUNDY3u3BsRlO2uv5JPU0IB/I13geRdXvcioloSUFKT5Tq+p3FIUZ5YQekqln/sEDcOBtgeoGEdu1xruvmebNeJSTZyS5dIkFQEDTeV0eayOAqamERa7H/Gg1OejYc0+AiCKYm3c/CtIbbCj4Da6Wi2z/x1aepR+5eZCGV+RKXwrVt2/xCdZXSWy+hfNQ7MCz6Q33P9GTUsiOYBIAJlkysAzQ2SHR38PMkEq4CNH2zI2z3anba7ixw0xOvBuBmXpq8xR89DAkWc/3O5/QHM19U7APT40xSgF51cNgF8D492P9tvwCR+EtRU3aD0wAAAABJRU5ErkJggg=="
@@ -61,6 +63,7 @@
           height="24"
         />
       </div>
+      
       <a class="registration-pass" href="">Forgot password?</a>
       <a href="./map-page.html" class="registration-continue">Continue</a>
       <a href="./map.html" class="registration-log"
