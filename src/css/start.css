@@ -49,8 +49,8 @@
 }
 .registration-glass {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 16px;
+
   right: 24px;
 }
 .registration-pass {
@@ -141,4 +141,16 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+  display: none;
+  /* Помилки ховаємо за замовчуванням */
+}
+
+.registration-input.invalid {
+  border-color: red;
 }
