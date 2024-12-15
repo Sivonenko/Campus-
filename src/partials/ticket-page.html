@@ -1,20 +1,34 @@
 <section class="ticket">
   <div class="container">
+    <div class="screen-ticket" id="screen-ticket">
     <h1 class="ticket-title">My tickets</h1>
     <h2 class="ticket-subtitle">My balance</h2>
     <ul class="ticket-list">
       <li class="ticket-item">
-        <button class="ticket-btn">
+        <button class="ticket-btn" id="coffee-btn">
           <img class="ticket-img" src="./img/cup.svg" alt="cup" /> Coffee
           <span class="ticket-btn-text">10</span>
         </button>
       </li>
       <li class="ticket-item">
-        <button type="button" class="ticket-btn">
+        <button type="button" class="ticket-btn" id="lunch-btn">
           <img class="ticket-img" src="./img/lunch.svg" alt="lunch" />My lunch
           <span class="ticket-btn-text">2</span>
         </button>
       </li>
     </ul>
+    </div>
+    <div class="modal-profile" id="coffee-modal">
+      <span class="modal-close" id="close-coffee"><img src="./img/arrow_left.svg" alt="arrow" /></span>
+      <h2>Coffee Details</h2>
+      <p>Here you can manage your coffee tickets.</p>
+    </div>
+    
+    <div class="modal-profile" id="lunch-modal">
+      <span class="modal-close" id="close-lunch"><img src="./img/arrow_left.svg" alt="arrow" /></span>
+      <h2>Lunch Details</h2>
+      <p>Here you can manage your lunch tickets.</p>
+    </div>
   </div>
+ 
 </section>
