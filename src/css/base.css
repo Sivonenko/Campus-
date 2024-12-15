@@ -1,11 +1,7 @@
 
 body {
 font-family: "Roboto", sans-serif;
+background: #fef7ff;
 }
 
-main {
-  flex-grow: 1;
-}
-main:has(.back-link) {
-  text-align: center;
-}
+

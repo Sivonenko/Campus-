@@ -1,6 +1,9 @@
 .footer {
   padding-top: 12px;
   padding-bottom: 16px;
+  position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .container {

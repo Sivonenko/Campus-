@@ -1,0 +1,44 @@
+.profile {
+    padding-top: 112px;
+   
+}
+
+.container {}
+
+.profile-title {
+    font-family: "Metral", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.33333;
+        color: #1d1b20;
+        margin-bottom: 24px;
+}
+
+.profile-list {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.profile-item {
+    padding: 16px 0;
+}
+
+.profile-link {
+    display: flex;
+    align-items: center;
+    font-family: "Metral", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.03em;
+        color: #1d1b20;
+}
+
+.profile-stick {
+    margin-right: 16px;
+}
+
+.profile-arr {
+    margin-left: auto;
+}
