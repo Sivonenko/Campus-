@@ -22,7 +22,7 @@
 
 .map-container {
     position: relative;
-    width: 425px;
+    width: 412px;
     height: 507px;
     margin: 20px auto;
     background-color: #e8e8e8;
@@ -51,7 +51,7 @@
     background-image: url('../img/map-screen-zoom.png');
 
     background-size: cover;
-    width: 425px;
+    width: 412px;
     height: 500px;
 }
 
@@ -160,13 +160,23 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: center;
+ 
     flex-direction: column;
+    padding-top: 112px;
 }
 
 .section-title {
-    text-align: center;
+    font-family: "Metral", sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+    padding: 0 16px;
+        text-align: left;
+        line-height: 1.33333;
+        color: #1d1b20;
     margin-bottom: 12px ;
+    width: 412px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .seat.change {

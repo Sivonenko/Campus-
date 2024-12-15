@@ -1,3 +1,98 @@
 .notifications-section{
     padding-top: 112px;
+    background: #fef7ff;
 }
+
+
+.notifications-title {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    
+        /* line-height: 32px; */
+        line-height: 1.33333;
+        color: #1d1b20;
+        margin-bottom: 24px;
+}
+
+.notifications-list {}
+
+.notifications-item {}
+
+.notifications-wrap {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.notifications-logo {
+    display: flex;
+    margin-right: 16px;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+        height: 40px;
+        border-radius: 100%;
+            background-color: #65558f;
+            font-family: "Metral", sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+            
+                /* line-height: 24px; */
+                line-height: 1.5;
+                letter-spacing: 0.01em;
+                text-align: center;
+                color: #fef7ff;
+}
+
+.notifications-subtitle {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.01em;
+        color: #1d1b20;
+}
+
+.notifications-img {
+    margin-left: auto;
+}
+.notifications-text{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.01em;
+        color: #1d1b20;
+        margin-bottom: 24px;
+}
+.notifications-text-wrap {
+    padding: 16px;
+}
+.notifications-time{
+    font-family: "Metral", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+    
+        /* line-height: 16px; */
+        line-height: 1.33333;
+        letter-spacing: 0.03em;
+        color: #49454f;
+
+}
+.notifications-items {
+    margin-bottom: 24px;
+}
+
+.notifications-desk {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+    
+        /* line-height: 20px; */
+        line-height: 1.42857;
+        letter-spacing: 0.02em;
+        color: #49454f;
+}
+
+.notifications-images {}
