@@ -3,11 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const lunchBtn = document.getElementById('lunch-btn');
   const coffeeModal = document.getElementById('coffee-modal');
   const lunchModal = document.getElementById('lunch-modal');
-  const closeCoffee = document.getElementById('close-coffee');
-  const closeLunch = document.getElementById('close-lunch');
+  const closeCoffee = document.getElementsByClassName('link-back');
+  const closeLunch = document.getElementsByClassName('link-back');
   const screenTicket = document.getElementById('screen-ticket');
 
-  console.log('coffee-btn', coffeeBtn);
   if (coffeeBtn) {
     coffeeBtn.addEventListener('click', () => {
       console.log('Coffee modal should open');
