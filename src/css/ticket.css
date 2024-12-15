@@ -1,5 +1,5 @@
 .ticket {
-    padding-top: 112px;
+    padding-top: 12px;
 }
 
 .container {}
@@ -68,6 +68,7 @@
     z-index: 1000;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 
@@ -94,4 +95,51 @@
 
 .modal-close:hover {
     color: red;
+}
+
+.modal-profile-wrap {
+    padding: 24px 16px 16px 16px;
+    background-color: #F7F2FA;
+    border-radius: 22px;
+}
+
+.modal-profile-descr {
+    text-align: center;
+    color: #49454F;
+    margin-bottom: 16px;
+}
+
+.modal-img {
+    background-color: #fff;
+        border-radius: 24px;
+}
+
+.modal-profile-title {
+    margin-bottom: 24px;
+    margin-right: auto;
+}
+
+.balance-wrap {
+    display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        padding-left: 28px;
+        padding-right: 16px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+}
+
+.wrapper-info {
+    display: flex;
+    align-items: center;
+}
+
+.balance-title {
+    margin-right: auto;
+    padding: 24px 10px;
+}
+
+.info-title {
+    color: #1D1B20;
 }

@@ -1,33 +1,64 @@
 <section class="ticket">
   <div class="container">
     <div class="screen-ticket" id="screen-ticket">
-    <h1 class="ticket-title">My tickets</h1>
-    <h2 class="ticket-subtitle">My balance</h2>
-    <ul class="ticket-list">
-      <li class="ticket-item">
-        <button class="ticket-btn" id="coffee-btn">
-          <img class="ticket-img" src="./img/cup.svg" alt="cup" /> Coffee
-          <span class="ticket-btn-text">10</span>
-        </button>
-      </li>
-      <li class="ticket-item">
-        <button type="button" class="ticket-btn" id="lunch-btn">
-          <img class="ticket-img" src="./img/lunch.svg" alt="lunch" />My lunch
-          <span class="ticket-btn-text">2</span>
-        </button>
-      </li>
-    </ul>
+      <h1 class="ticket-title">My tickets</h1>
+      <h2 class="ticket-subtitle">My balance</h2>
+      <ul class="ticket-list">
+        <li class="ticket-item">
+          <button class="ticket-btn" id="coffee-btn">
+            <img class="ticket-img" src="./img/cup.svg" alt="cup" /> Coffee
+            <span class="ticket-btn-text">10</span>
+          </button>
+        </li>
+        <li class="ticket-item">
+          <button type="button" class="ticket-btn" id="lunch-btn">
+            <img class="ticket-img" src="./img/lunch.svg" alt="lunch" />My lunch
+            <span class="ticket-btn-text">2</span>
+          </button>
+        </li>
+      </ul>
     </div>
-    
+
     <div class="modal-profile" id="coffee-modal">
-      <h2>Coffee Details</h2>
-      <p>Here you can manage your coffee tickets.</p>
+      <h2 class="modal-profile-title">Coffee</h2>
+      <div class="modal-profile-wrap">
+        <p class="modal-profile-descr">Coffee</p>
+        <img
+          class="modal-img"
+          src="../img//qr-one.png"
+          height="348px"
+          width="348px"
+        />
+      </div>
+      <p class="balance-title">My balance</p>
+      <div class="balance-wrap">
+        <div class="wrapper-info">
+        <img class="ticket-img" src="./img/cup.svg" alt="cup" />
+        <p class="info-title">Coffee</p>
+        </div>
+        <span class="ticket-btn-text">10</span>
+      </div>
     </div>
-    
+
     <div class="modal-profile" id="lunch-modal">
-      <h2>Lunch Details</h2>
-      <p>Here you can manage your lunch tickets.</p>
+      <h2 class="modal-profile-title">Lunch</h2>
+      <div class="modal-profile-wrap">
+        <p class="modal-profile-descr">Lunch</p>
+        <img
+          class="modal-img"
+          src="../img//qr-one.png"
+          height="348px"
+          width="348px"
+        />
+      </div>
+      <p class="balance-title">My balance</p>
+      <div class="balance-wrap">
+        <div class="wrapper-info">
+        <img class="ticket-img" src="./img/lunch.svg" alt="lunch" />
+        <p class="info-title">My lunch</p>
+        </div>
+        <span class="ticket-btn-text">2</span>
+      </div>
     </div>
   </div>
- 
 </section>
