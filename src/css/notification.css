@@ -1,6 +1,7 @@
 .notifications-section {
   padding-top: 112px;
   background: #fef7ff;
+  padding-bottom: 80px;
 }
 
 .notifications-title {
@@ -17,7 +18,11 @@
   display: flex;
   align-items: center;
 }
-
+.notifications-list{
+    display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 .notifications-logo {
   display: flex;
   margin-right: 16px;
@@ -74,8 +79,12 @@
 }
 .notifications-items {
   margin-bottom: 24px;
-}
 
+}
+.notifications-item{
+    border: 1px solid #cac4d0;
+        border-radius: 12px;
+}
 .notifications-desk {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;

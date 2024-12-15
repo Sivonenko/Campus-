@@ -2,6 +2,8 @@
 body {
 font-family: "Roboto", sans-serif;
 background: #fef7ff;
+position: relative;
+min-height: 936px;
 }
 
 
