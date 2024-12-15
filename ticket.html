@@ -18,8 +18,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script type="module" crossorigin src="/Campus-/assets/main-DfqTc630.js"></script>
-    <link rel="stylesheet" crossorigin href="/Campus-/assets/styles-CyrFIe57.css">
+    <script type="module" crossorigin src="/Campus-/ticket.js"></script>
+    <link rel="modulepreload" crossorigin href="/Campus-/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="stylesheet" crossorigin href="/Campus-/assets/styles-jA9-Rour.css">
   </head>
   <body>
     <header class="header">
@@ -46,23 +47,37 @@
       </div>
       <section class="ticket">
   <div class="container">
+    <div class="screen-ticket" id="screen-ticket">
     <h1 class="ticket-title">My tickets</h1>
     <h2 class="ticket-subtitle">My balance</h2>
     <ul class="ticket-list">
       <li class="ticket-item">
-        <button class="ticket-btn">
+        <button class="ticket-btn" id="coffee-btn">
           <img class="ticket-img" src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cmask%20id='mask0_2007_18620'%20style='mask-type:alpha'%20maskUnits='userSpaceOnUse'%20x='0'%20y='0'%20width='24'%20height='24'%3e%3crect%20width='24'%20height='24'%20fill='%23D9D9D9'/%3e%3c/mask%3e%3cg%20mask='url(%23mask0_2007_18620)'%3e%3cpath%20d='M4%2021V19H20V21H4ZM8%2017C6.9%2017%205.95833%2016.6083%205.175%2015.825C4.39167%2015.0417%204%2014.1%204%2013V3H20C20.55%203%2021.0208%203.19583%2021.4125%203.5875C21.8042%203.97917%2022%204.45%2022%205V8C22%208.55%2021.8042%209.02083%2021.4125%209.4125C21.0208%209.80417%2020.55%2010%2020%2010H18V13C18%2014.1%2017.6083%2015.0417%2016.825%2015.825C16.0417%2016.6083%2015.1%2017%2014%2017H8ZM8%2015H14C14.55%2015%2015.0208%2014.8042%2015.4125%2014.4125C15.8042%2014.0208%2016%2013.55%2016%2013V5H6V13C6%2013.55%206.19583%2014.0208%206.5875%2014.4125C6.97917%2014.8042%207.45%2015%208%2015ZM18%208H20V5H18V8ZM8%2015H6H16H8Z'%20fill='%231C1B1F'/%3e%3c/g%3e%3c/svg%3e" alt="cup" /> Coffee
           <span class="ticket-btn-text">10</span>
         </button>
       </li>
       <li class="ticket-item">
-        <button type="button" class="ticket-btn">
+        <button type="button" class="ticket-btn" id="lunch-btn">
           <img class="ticket-img" src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cmask%20id='mask0_2007_18625'%20style='mask-type:alpha'%20maskUnits='userSpaceOnUse'%20x='0'%20y='0'%20width='24'%20height='24'%3e%3crect%20width='24'%20height='24'%20fill='%23D9D9D9'/%3e%3c/mask%3e%3cg%20mask='url(%23mask0_2007_18625)'%3e%3cpath%20d='M4%2021L2%2019H22L20%2021H4ZM3%2018C3.1%2017.7%203.23333%2017.4167%203.4%2017.15C3.56667%2016.8833%203.76667%2016.6333%204%2016.4V9H3V7.5H4V6.75H3V5.25H4V4.5H3V3H10C10.55%203%2011.0208%203.19583%2011.4125%203.5875C11.8042%203.97917%2012%204.45%2012%205V5.25H21V6.75H12V7C12%207.55%2011.8042%208.02083%2011.4125%208.4125C11.0208%208.80417%2010.55%209%2010%209H8V15.1C8.23333%2015.1333%208.46667%2015.1833%208.7%2015.25C8.93333%2015.3167%209.15%2015.4167%209.35%2015.55C9.78333%2014.4667%2010.475%2013.6042%2011.425%2012.9625C12.375%2012.3208%2013.425%2012%2014.575%2012C16.075%2012%2017.3542%2012.5125%2018.4125%2013.5375C19.4708%2014.5625%2020%2015.8167%2020%2017.3V18H3ZM11.35%2016H17.65C17.3667%2015.4%2016.95%2014.9167%2016.4%2014.55C15.85%2014.1833%2015.2417%2014%2014.575%2014C13.875%2014%2013.2333%2014.175%2012.65%2014.525C12.0667%2014.875%2011.6333%2015.3667%2011.35%2016ZM8%205.25H10V4.5H8V5.25ZM8%207.5H10V6.75H8V7.5ZM5.5%205.25H6.5V4.5H5.5V5.25ZM5.5%207.5H6.5V6.75H5.5V7.5ZM5.5%2015.35C5.66667%2015.2667%205.82917%2015.2042%205.9875%2015.1625C6.14583%2015.1208%206.31667%2015.0833%206.5%2015.05V9H5.5V15.35Z'%20fill='%231C1B1F'/%3e%3c/g%3e%3c/svg%3e" alt="lunch" />My lunch
           <span class="ticket-btn-text">2</span>
         </button>
       </li>
     </ul>
+    </div>
+    <div class="modal-profile" id="coffee-modal">
+      <span class="modal-close" id="close-coffee"><img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M7.825%2013L13.425%2018.6L12%2020L4%2012L12%204L13.425%205.4L7.825%2011H20V13H7.825Z'%20fill='%231D1B20'/%3e%3c/svg%3e" alt="arrow" /></span>
+      <h2>Coffee Details</h2>
+      <p>Here you can manage your coffee tickets.</p>
+    </div>
+    
+    <div class="modal-profile" id="lunch-modal">
+      <span class="modal-close" id="close-lunch"><img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M7.825%2013L13.425%2018.6L12%2020L4%2012L12%204L13.425%205.4L7.825%2011H20V13H7.825Z'%20fill='%231D1B20'/%3e%3c/svg%3e" alt="arrow" /></span>
+      <h2>Lunch Details</h2>
+      <p>Here you can manage your lunch tickets.</p>
+    </div>
   </div>
+ 
 </section>
 
     </main>
