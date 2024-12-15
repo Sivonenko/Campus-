@@ -135,3 +135,48 @@ function clearFieldError(input, errorElement) {
   errorElement.style.display = 'none';
   input.classList.remove('invalid');
 }
+
+// document.addEventListener('DOMContentLoaded', () => {
+//   const coffeeBtn = document.getElementById('coffee-btn');
+//   const lunchBtn = document.getElementById('lunch-btn');
+//   const coffeeModal = document.getElementById('coffee-modal');
+//   const lunchModal = document.getElementById('lunch-modal');
+//   const closeCoffee = document.getElementById('close-coffee');
+//   const closeLunch = document.getElementById('close-lunch');
+//   console.log('coffee-btn', coffeeBtn);
+//   if (coffeeBtn) {
+//     coffeeBtn.addEventListener('click', () => {
+//       console.log('Coffee modal should open');
+//       coffeeModal.style.display = 'flex';
+//     });
+//   }
+
+//   if (lunchBtn) {
+//     lunchBtn.addEventListener('click', () => {
+//       console.log('Lunch modal should open');
+//       lunchModal.style.display = 'flex';
+//     });
+//   }
+
+//   if (closeCoffee) {
+//     closeCoffee.addEventListener('click', () => {
+//       coffeeModal.style.display = 'none';
+//     });
+//   }
+
+//   if (closeLunch) {
+//     closeLunch.addEventListener('click', () => {
+//       lunchModal.style.display = 'none';
+//     });
+//   }
+
+//   // Закриття модальних вікон при кліку поза їх межами
+//   window.addEventListener('click', event => {
+//     if (event.target === coffeeModal) {
+//       coffeeModal.style.display = 'none';
+//     }
+//     if (event.target === lunchModal) {
+//       lunchModal.style.display = 'none';
+//     }
+//   });
+// });
